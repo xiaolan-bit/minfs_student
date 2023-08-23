@@ -1,0 +1,15 @@
+server:
+  port: 8001
+spring:
+  task:
+    execution:
+      pool:
+        core-size: 10
+        max-size: 20
+        queue-capacity: 1000
+meta:
+  id: slave
+  role: slave
+zookeeper:
+  addr: 127.0.0.1:2181
+  sessionTimeout: 30000

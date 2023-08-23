@@ -1,0 +1,10 @@
+server:
+  port: 9003
+az:
+  rack: rack2
+  zone: zone2
+zookeeper:
+  addr: 127.0.0.1:2181
+  sessionTimeout: 30000
+capacity: 1536000
+fileTotal: 0

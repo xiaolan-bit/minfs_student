@@ -1,0 +1,15 @@
+server:
+  port: 8000
+spring:
+  task:
+    execution:
+      pool:
+        core-size: 10
+        max-size: 20
+        queue-capacity: 1000
+meta:
+  id: master
+  role: master
+zookeeper:
+  addr: 127.0.0.1:2181
+  sessionTimeout: 30000
